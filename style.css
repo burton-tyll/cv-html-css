@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*-------Blocks---------------------*/
+
+body, html{
+	margin: 0;
+}
+
+header{
+	display: flex;
+	color: black;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(#4645E5, #181A1B);
+	margin: 0;
+	height: 100px;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	border: 2px solid black;
+	border-bottom: 0px;
+}
+
+.photo{
+	width: fit-content;
+	position: absolute;
+	right: 25px;
+}
+
+.photo img{
+	border: 2px solid black;
+	border-radius: 50px;
+	width: 150px;
+	height: 185px;
+}
+
+.contenu{
+	font-family: "oswald";
+	display: flex;
+	border: 2px solid black;
+}
+
+.bandeau{
+	background-color: #181A1B;
+	width: 30%;
+	padding: 600px 15px 0px 15px;
+}
+
+.parcours-pro{
+	background-color: #FFF;
+	padding: 500px 15px 0px 15px;
+	margin: 60px;
+}
+
+.infos{
+	font-family: "roboto";
+	background-color: white;
+	position: absolute;
+	margin: 100px 0px 0px 120px;
+	width: 80%;
+	padding: 15px;
+}
+
+.infos-perso{
+	background-color: #4645E5;
+	padding: 10px;
+}
+
+/*-----------------------Texte-------------------------*/
+h1{
+	color: white;
+	text-transform: uppercase;
+	margin-top: 0;
+	text-shadow: 2px 0px #282626;
+}
+
+h2{
+	color: grey;
+}
+
+.parcours-pro h2{
+	background-color: #4645E5;
+	width: fit-content;
+	padding: 5px;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.parcours-pro p{
+	color: black;
+}
+
+.parcours-pro h1{
+	color: black;
+	text-shadow: 2px 0px #CCC;
+}
+
+.bandeau li{
+	color: white;
+	list-style-type: none;
+	width: fit-content;
+}
+
+.infos-perso h1{
+	font-size: 3em;
+}
+
+p{
+	color: white;
+}
+
+ul{
+	padding: 0;
+}
+
+i{
+	margin-right: 10px;
+}
+
+.nom_page{
+	font-size: 50px;
+	text-shadow: 4px 0px #37253d;
+}
+
+/*-------------Menu---------------------*/
+
+.menu{
+	position: absolute;
+	left: 10px;
+	font-size: 50px;
+	color: white;
+}
+
+.menu:hover li{
+	color: #ccc;
+	background-color: green;
+	display: flex;
+	flex-direction: row;
+}
+
+.menu li{
+	display: none;
+	position: absolute;
+}
+
+/*-------------Bandeau--------------------*/
+
+.liste{
+	display: flex;
+}
+
+.cubes{
+	margin-right: 10px;
+}
